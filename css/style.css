@@ -1,0 +1,213 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #4c4c4c;
+  background: green;
+}
+
+.main {
+  width: 100%;
+  height: 80%;
+  max-width: 1600px;
+  margin: 2em auto;
+  border-radius: .3em;
+  background: #fcfcfc;
+  overflow: hidden;
+  box-shadow: 0 0 60px rgba(61, 46, 46, 0.35);
+}
+
+#focim{
+	text-align: center;
+	font-size: 46px;
+	font-family: Impact, Charcoal, sans-serif;
+	letter-spacing: 4px;
+	text-shadow: 2px 2px greenyellow;
+	text-decoration: none;
+	color: black;
+	display: block;
+	transition: all .8s;
+}
+
+#focim:hover{
+	text-shadow: 17px 12px 8px rgba(175, 184, 202, 1);
+	font-size: 58px;
+}
+
+#mainMenu {
+	text-align: center;
+	padding: 1% 1.5% 1.5% 1%;
+	font-size: 18px;
+	
+}
+
+#mainMenu a {
+	padding-left: 3%;
+	padding-right: 3%;
+	text-decoration: none;
+	color: grey;
+	border-bottom: 2px solid greenyellow;
+	transition: all 0.4s;
+}
+
+#mainMenu a:hover {
+	color: white;
+	background-color: green;
+}
+
+#welcomeText {
+	text-align: center;
+	margin-top: 1%;
+	margin-bottom: 5%;
+	font-size: 18px;
+}
+
+#receptText {
+	text-align: center;
+	margin-top: 0%;
+	margin-bottom: 5%;
+	font-size: 18px;
+}
+
+#chefImg {
+	width: 15%;
+	top: -5%;
+	margin: 4%;
+}
+
+#receptImg {
+	width: 10%;
+}
+
+
+
+#currOldal {
+	background-color: greenyellow;
+}
+
+
+
+.tooltip {
+  position: relative;
+  display: inline;
+  
+ 
+}
+
+.visszagomb {
+	width: 200px;
+	height: 50px;
+	font-size: 18px;
+	background-color: white;
+}
+
+.felviteltable {
+	width: 472px;
+	float: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#kalkulatorreceptnev{
+	font-size: 32px;
+	text-align: center;
+	color: white;
+}
+
+#kalkulatormennyiseg {
+	font-size: 22px;
+	text-align: center;
+	color: white;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 150px;
+  background-color: #555;
+  color: white;
+  text-align: center;
+  padding: 2% 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+  
+}
+
+.tabla{
+	border:1px solid black;
+	border-collapse:collapse;
+	background-color:#FFFFF0;
+}
+
+#listazasiLista{
+	text-align: center;
+	padding: 10%;
+	padding-top: 1%;
+}
+
+#listazasiLista table{
+	margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 3%;
+	margin-top: 3%;
+	width: 45%;
+}
+
+#content{
+	width:45%;
+	margin-top:1em;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 8%;
+}
+
+#contentKalk{
+	width:45%;
+	margin-top:1em;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 3%;
+}
+
+#foot {
+	color: white;
+	text-align:center;
+	margin-top: 2%;
+	transition: all .8s;
+	width: 35%;
+	margin: auto;
+	font-size: 12px;
+}
+
+#foot:hover {
+	font-size: 20px;
+}
+
+.gomb2{
+	text-align: center;
+}
